@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#logo
+{
+    color: #3b59fc;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 800;
+    font-size: 200%;
+}
+
+#card
+{
+    text-align: center;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+form input
+{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0 14px;
+    width: 100%;
+    height: 55px;
+    font-size: 1rem;
+}
+
+input[type="email"]
+{
+    margin: 10px 0px 10px 10px;
+    width: 87%;
+}
+
+input[type="password"]
+{
+    margin: 0px 0px 10px 10px;
+    width: 87%;
+}
+
+hr
+{
+    width: 90%;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+::placeholder {
+    color: #777;
+    font-size: 1.063rem;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.forgot
+{
+    margin: 10px 0px 10px 0px;
+}
+
+section button
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #1877f2;
+    padding: 15px 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+    width: 100%;
+    margin: 10px 0px 10px 0px ;
+}
+
+.create_acc
+{
+    text-align: center;
+}
+
+.create_acc a
+{
+    padding: 15px 20px;
+    background: #42b72a;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+    margin: 10px 0px 10px 10px;
+    width: 95%;
+}
+
+footer
+{
+    text-align: center;
+    color: #777777;
+    font-size: 80%;
+    margin-top: 30%;
+    position: sticky;
+}
+
